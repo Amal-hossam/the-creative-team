@@ -1,0 +1,46 @@
+/***orange theme**/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider,
+.carousel-indicators .active,
+.option-box .color-box ul li,
+.option-box .gear-check {
+    background-color: #b37505;
+    #991717
+}
+
+
+
+
+
+.navbar-nav > li > .dropdown-menu {
+    border-top: 1px solid #b37505;
+}
+
+
+
+
+
+.option-box .color-box,
+.option-box .gear-check,
+.testimonials .carousel-indicators li.active {
+
+    border: 2px solid #b37505;
+}
+
+
+
+
+.navbar-brand span,
+.about h2 span,
+.testimonials span,
+footer h3,
+footer .copy-right span {
+    color: #b37505
+}
+
+#0895D1

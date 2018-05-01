@@ -1,0 +1,141 @@
+/* start about pages*/
+
+.breadcrumb {
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.breadcrumb-holder {
+    background-color: #f5f5f5
+}
+
+.about-us h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -2px;
+    font-size:50px
+}
+
+.about-us hr {
+    width: 70%
+}
+
+.about-us .img-thumbnail {
+    margin: 30px 0;
+    border: 1px solid #fff;
+    background: #fff
+}
+
+/* End about pages*/
+
+/*Start about us features*/
+
+.about-features {
+    padding-bottom: 40px;
+
+}
+
+.about-features h3 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+
+.about-features p {
+    margin-bottom: 30px
+}
+
+/*End about us features*/
+
+/*Start about Ceo*/
+
+.about-ceo {
+    background-color: #eee;
+    padding-top: 30px;
+}
+
+.about-ceo h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+
+}
+
+.about-ceo .lead {
+    line-height: 1.8
+}
+
+.about-ceo button {
+    margin-bottom: 20px;
+    background: #222;
+    border: 1px solid #222
+}
+
+.about-ceo button:hover {
+    background: #fff;
+    color: #222;
+    font-weight: bold
+}
+
+/*End about Ceo*/
+
+/*Start FAQ */
+
+.faq {
+    padding: 40px 0
+}
+
+.faq h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+    font-size: 50px
+}
+
+.faq h2 ~ hr {
+    width: 70%
+}
+
+.faq-questions .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+
+.faq-questions .panel-heading a.collapsed:after,
+.faq-questions .panel-heading #in a:after {
+    content: "\e080";
+    color: #999
+}
+
+
+/*End FAQ */
+
+/*Start map */
+.team-map{
+    padding-top:40px;
+    padding-bottom: 20px;
+    background-color:#EEE
+}
+.team-map h2{    font-family: 'Raleway', sans-serif;
+font-size:50px;
+    margin-bottom: 30px
+}
+#map{
+    width:1000px;height:700px
+}
+/*End map*/
+
+/** start media Query for pages**/
+@media (max-width:767px) {
+    .faq h2 {
+        font-size: 25px
+    }
+    .team-map h2{
+        font-size:20px
+    }
+    #map{
+    width:380px;height:250px
+}
+}
+/** End media Query for pages**/
+
